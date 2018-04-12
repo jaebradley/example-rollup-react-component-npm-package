@@ -1,0 +1,67 @@
+{
+  "name": "example-react-component-npm-package",
+  "version": "1.0.0",
+  "description": "Example React Component for npm Publication",
+  "main": "./build/index.js",
+  "module": "./build/index.js",
+  "files": [
+    "./build"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "test": "jest --coverage --passWithNoTests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaebradley/example-react-component-npm-package.git"
+  },
+  "keywords": [
+    "rollup",
+    "react",
+    "react component",
+    "rollup react",
+    "component",
+    "example react component",
+    "example rollup react component"
+  ],
+  "author": "jae.b.bradley@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaebradley/example-react-component-npm-package/issues"
+  },
+  "homepage": "https://github.com/jaebradley/example-react-component-npm-package#readme",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.44",
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "@babel/preset-react": "^7.0.0-beta.44",
+    "autoprefixer": "^8.2.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-minify": "^0.4.0",
+    "enzyme": "^3.3.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "node-sass": "^4.8.3",
+    "postcss": "^6.0.21",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^4.0.0-beta.4",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-filesize": "^1.5.0",
+    "rollup-plugin-local-resolve": "^1.0.7",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.1.0",
+    "rollup-plugin-postcss": "^1.5.1"
+  }
+}
