@@ -38,10 +38,12 @@ My requirements for this package were
   * [How I Set Up a React Component Library with Rollup](https://medium.com/tech-grandata-com/how-i-set-up-a-react-component-library-with-rollup-be6ccb700333)
   * [Publishing Baller React Modules](https://hackernoon.com/publishing-baller-react-modules-2b039d84bce7) <sup>[3](#baller-react-modules-footnote)</sup>
   * [Making of a Component Library for React](https://hackernoon.com/making-of-a-component-library-for-react-e6421ea4e6c7)
-  *
+  * The [`transitive-bullshit/create-react-library`](https://github.com/transitive-bullshit/create-react-library) was also very useful to inspect
 
 ## Footnotes
 
-<a name="general-footnote"><sup>1</sup></a>general general general general general. In general, I could do this all day.
-<a name="metric-fuck-ton-footnote"><sup>2</sup></a><a href="https://github.com/rollup/rollup/wiki/Plugins">Like a metric fuck ton of plugins</a>
-<a name="baller-react-modules-footnote"><sup>3</sup></a><a href="https://media.giphy.com/media/oOTTyHRHj0HYY/giphy.gif">How I feel about "baller"</a>
+<ul>
+  <li><a name="general-footnote"><sup>1</sup></a>general general general general general. In general, I could do this all day.</li>
+  <li><a name="metric-fuck-ton-footnote"><sup>2</sup></a><a href="https://github.com/rollup/rollup/wiki/Plugins">Like a metric fuck ton of plugins</a></li>
+  <li><a name="baller-react-modules-footnote"><sup>3</sup></a><a href="https://media.giphy.com/media/oOTTyHRHj0HYY/giphy.gif">How I feel about "baller"</a></li>
+</ul>
