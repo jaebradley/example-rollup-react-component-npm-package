@@ -25,6 +25,9 @@
     "type": "git",
     "url": "https://github.com/jaebradley/example-rollup-react-component-npm-package.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "rollup",
     "react",
