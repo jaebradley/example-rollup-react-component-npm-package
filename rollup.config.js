@@ -33,7 +33,7 @@ const config = {
   ],
   plugins: [
     peerDepsExternal(),
-    postcss({ modules: true, plugins: [autoprefixer] }),
+    postcss({ extract: true, plugins: [autoprefixer] }),
     babel({ exclude: 'node_modules/**' }),
     localResolve(),
     resolve(),
