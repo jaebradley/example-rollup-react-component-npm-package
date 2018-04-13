@@ -5,6 +5,7 @@
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
   "browser": "build/index.js",
+  "style": "build/index.css",
   "files": [
     "build"
   ],
