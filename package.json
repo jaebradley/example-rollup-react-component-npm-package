@@ -9,7 +9,10 @@
   ],
   "scripts": {
     "build": "rollup -c",
+    "codecov": "codecov",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
     "deploy-storybook-ci": "storybook-to-ghpages --ci",
+    "gc": "commit",
     "lint": "eslint --ext .js,.jsx .",
     "prepublishOnly": "npm run build",
     "semantic-release": "semantic-release",
@@ -64,6 +67,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-minify": "^0.4.0",
     "babel-preset-react": "^6.24.1",
+    "codecov": "^3.0.0",
     "css-loader": "^0.28.11",
     "enzyme": "^3.3.0",
     "eslint": "^4.19.1",
