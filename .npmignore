@@ -8,4 +8,9 @@ test/
 *.test.js
 coverage/
 *.stories.js
-*.stores.jsx
+*.stories.jsx
+rollup.config.js
+.babelrc
+.eslintignore
+.eslintric
+.gitignore
