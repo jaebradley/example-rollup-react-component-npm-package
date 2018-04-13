@@ -1,5 +1,7 @@
 # example-rollup-react-component-npm-package
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jaebradley/example-rollup-react-component-npm-package.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/jaebradley/example-rollup-react-component-npm-package.svg?branch=master)](https://travis-ci.org/jaebradley/example-rollup-react-component-npm-package)
 [![npm](https://img.shields.io/npm/dt/@jaebradley/example-rollup-react-component-npm-package.svg)](https://www.npmjs.com/package/@jaebradley/example-rollup-react-component-npm-package)
 [![npm](https://img.shields.io/npm/v/@jaebradley/example-rollup-react-component-npm-package.svg)](https://www.npmjs.com/package/@jaebradley/example-rollup-react-component-npm-package)
