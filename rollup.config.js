@@ -13,8 +13,13 @@ const config = {
   input: 'src/index.js',
   output: [
     {
-      file: pkg.main,
+      file: pkg.browser,
       format: 'umd',
+      name: 'Example',
+    },
+    {
+      file: pkg.main,
+      format: 'cjs',
       name: 'Example',
     },
     {

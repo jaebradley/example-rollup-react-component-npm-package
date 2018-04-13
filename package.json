@@ -2,10 +2,11 @@
   "name": "@jaebradley/example-rollup-react-component-npm-package",
   "version": "0.0.0-development",
   "description": "Example React Component for npm Publication using Rollup",
-  "main": "./build/index.js",
-  "module": "./build/index.es.js",
+  "main": "build/index.cjs.js",
+  "module": "build/index.esm.js",
+  "browser": "build/index.umd.js",
   "files": [
-    "./build"
+    "build"
   ],
   "scripts": {
     "build": "rollup -c",
