@@ -28,10 +28,8 @@ const config = {
   ],
   plugins: [
     peerDepsExternal(),
-    postcss({ extract: true, plugins: [autoprefixer] }),
-    babel({
-      exclude: 'node_modules/**',
-    }),
+    postcss({ modules: true, plugins: [autoprefixer] }),
+    babel({ exclude: 'node_modules/**' }),
     localResolve(),
     resolve(),
     commonjs(),
