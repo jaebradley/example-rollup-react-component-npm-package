@@ -9,16 +9,15 @@ node_js:
 before_install:
   - npm install -g npm@5
   - npm install -g greenkeeper-lockfile@1
-before_script: greenkeeper-lockfile-update
-after_script: greenkeeper-lockfile-upload
-script:
-  - npm run lint
-  - npm run test
-  - npm run build
-after_success:
-  - npm run travis-deploy-once "npm run semantic-release"
-  - npm run codecov
-  - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then npm run deploy-storybook-ci; fi
-branches:
-  except:
-  - /^v\d+\.\d+\.\d+$/
+jobs:
+  include:
+    - stage: test
+      script:
+        - npm run lint
+        - npm run test
+        - npm run build
+      before_script: greenkeeper-lockfile-update
+      after_script: greenkeeper-lockfile-upload
+    - stage: deploy
+      if: branch = master
+      script: npm run travis-deploy-once "npm run semantic-release"
