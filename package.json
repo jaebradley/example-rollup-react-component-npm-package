@@ -14,7 +14,7 @@
     "deploy-storybook-ci": "storybook-to-ghpages --ci",
     "gc": "commit",
     "lint": "eslint --ext .js,.jsx .",
-    "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "semantic-release": "semantic-release",
     "start": "rollup -c -w",
     "storybook": "start-storybook -p 6006",
