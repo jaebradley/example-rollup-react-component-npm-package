@@ -17,6 +17,10 @@ const config = {
       format: 'umd',
       name: 'Example',
     },
+    {
+      file: pkg.module,
+      format: 'es',
+    },
   ],
   external: [
     'react',
