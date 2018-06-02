@@ -92,7 +92,7 @@
     "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-peer-deps-external": "^2.1.0",
     "rollup-plugin-postcss": "^1.5.1",
-    "sass-loader": "^6.0.7",
+    "sass-loader": "^7.0.2",
     "semantic-release": "^15.1.7",
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.20.3",
