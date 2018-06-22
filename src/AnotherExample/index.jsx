@@ -3,7 +3,12 @@ import PropTypes from 'prop-types';
 
 import './AnotherExample.scss';
 
-const AnotherExample = ({ name }) => <div className="another-example">This is another example by { name }</div>;
+const AnotherExample = ({ name }) => (
+  <div className="another-example">
+This is another example by
+    { name }
+  </div>
+);
 
 AnotherExample.propTypes = {
   name: PropTypes.string,
