@@ -64,7 +64,7 @@
     "@storybook/channels": "^3.4.1",
     "@storybook/react": "^3.4.1",
     "@storybook/storybook-deployer": "^2.3.0",
-    "autoprefixer": "^8.2.0",
+    "autoprefixer": "^9.0.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-jest": "^23.0.0",
