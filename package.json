@@ -95,7 +95,7 @@
     "sass-loader": "^7.0.3",
     "semantic-release": "^15.1.7",
     "source-map-loader": "^0.2.3",
-    "style-loader": "^0.20.3",
+    "style-loader": "^0.22.0",
     "travis-deploy-once": "^5.0.1",
     "webpack": "^4.5.0",
     "webpack-build-notifier": "^0.1.23",
