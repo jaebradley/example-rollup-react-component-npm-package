@@ -84,7 +84,7 @@
     "jest": "^22.4.3",
     "node-sass": "^4.8.3",
     "postcss": "^6.0.21",
-    "rollup": "^0.64.0",
+    "rollup": "^0.66.1",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-filesize": "^2.0.0",
