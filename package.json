@@ -61,7 +61,7 @@
     "@storybook/addon-console": "^1.0.0",
     "@storybook/addon-info": "^3.4.1",
     "@storybook/addon-options": "^3.4.1",
-    "@storybook/channels": "^3.4.1",
+    "@storybook/channels": "^4.0.0",
     "@storybook/react": "^3.4.1",
     "@storybook/storybook-deployer": "^2.3.0",
     "autoprefixer": "^9.0.0",
