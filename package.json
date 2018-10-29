@@ -55,7 +55,7 @@
     "@commitlint/config-angular": "^7.0.1",
     "@commitlint/prompt": "^7.0.0",
     "@commitlint/prompt-cli": "^7.0.0",
-    "@storybook/addon-a11y": "^3.4.1",
+    "@storybook/addon-a11y": "^4.0.0",
     "@storybook/addon-actions": "^4.0.0",
     "@storybook/addon-centered": "^4.0.0",
     "@storybook/addon-console": "^1.0.0",
