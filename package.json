@@ -89,7 +89,7 @@
     "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-filesize": "^2.0.0",
     "rollup-plugin-local-resolve": "^1.0.7",
-    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-peer-deps-external": "^2.1.0",
     "rollup-plugin-postcss": "^1.5.1",
     "sass-loader": "^7.0.3",
