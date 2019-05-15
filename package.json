@@ -86,7 +86,7 @@
     "postcss": "^6.0.21",
     "rollup": "^0.64.0",
     "rollup-plugin-babel": "^3.0.3",
-    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-commonjs": "^10.0.0",
     "rollup-plugin-filesize": "^2.0.0",
     "rollup-plugin-local-resolve": "^1.0.7",
     "rollup-plugin-node-resolve": "^3.3.0",
