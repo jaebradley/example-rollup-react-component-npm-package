@@ -51,7 +51,7 @@
     "react-dom": "^16.3.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.0.0",
+    "@commitlint/cli": "^8.0.0",
     "@commitlint/config-angular": "^7.0.1",
     "@commitlint/prompt": "^7.0.0",
     "@commitlint/prompt-cli": "^7.0.0",
