@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
-    "@commitlint/config-angular": "^7.0.1",
+    "@commitlint/config-angular": "^8.1.0",
     "@commitlint/prompt": "^7.0.0",
     "@commitlint/prompt-cli": "^7.0.0",
     "@storybook/addon-a11y": "^3.4.1",
