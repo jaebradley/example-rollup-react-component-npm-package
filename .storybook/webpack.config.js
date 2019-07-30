@@ -19,10 +19,20 @@ module.exports = {
           {
             loader: 'babel-loader',
             options: {
-              presets: ['env', 'react'],
+              presets: [
+                '@babel/preset-env',
+                '@babel/preset-react',
+              ],
             },
           },
           { loader: 'source-map-loader' },
+        ],
+      },
+      {
+        test: /\.css$/,
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'css-loader' },
         ],
       },
       {
@@ -30,7 +40,7 @@ module.exports = {
         use: [
           { loader: 'style-loader' },
           { loader: 'css-loader' },
-          { loader: 'sass-loader' }
+          { loader: 'sass-loader' },
         ],
       }
     ],
