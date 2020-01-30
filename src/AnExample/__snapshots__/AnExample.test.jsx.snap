@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnExample when name prop is defined renders correctly 1`] = `
+<div
+  className="an-example"
+>
+  This is an example by
+  Some Name
+</div>
+`;
+
+exports[`AnExample when name prop is not defined renders correctly 1`] = `
+<div
+  className="an-example"
+>
+  This is an example by
+  jaebaebae
+</div>
+`;
