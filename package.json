@@ -10,18 +10,18 @@
     "build"
   ],
   "scripts": {
-    "build": "rollup -c",
-    "codecov": "codecov",
-    "commitmsg": "commitlint -e $GIT_PARAMS",
-    "deploy-storybook-ci": "storybook-to-ghpages --ci",
+    "build": "npx rollup -c",
+    "codecov": "npx codecov",
+    "commitmsg": "npx commitlint -e $GIT_PARAMS",
+    "deploy-storybook-ci": "npx storybook-to-ghpages --ci",
     "gc": "commit",
-    "lint": "eslint --ext .js,.jsx .",
+    "lint": "npx eslint --ext .js,.jsx .",
     "prepare": "npm run build",
-    "semantic-release": "semantic-release",
-    "start": "rollup -c -w",
-    "storybook": "start-storybook -p 6006",
-    "test": "jest --coverage",
-    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "npx semantic-release",
+    "start": "npm run build -- -w",
+    "storybook": "npx start-storybook -p 6006",
+    "test": "npx jest --coverage",
+    "travis-deploy-once": "npx travis-deploy-once",
     "is-build-es5": "npx es-check es5 './build/**/*.!(esm).js'"
   },
   "repository": {
