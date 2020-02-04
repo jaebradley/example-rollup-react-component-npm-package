@@ -5,7 +5,7 @@ import './AnExample.scss';
 
 const AnExample = ({ name }) => (
   <div className="an-example">
-This is an example by
+    This is an example by
     { name }
   </div>
 );
