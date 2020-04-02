@@ -57,7 +57,7 @@
     "@commitlint/prompt-cli": "^8.3.5",
     "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-node-resolve": "^7.1.1",
-    "@storybook/addon-a11y": "^5.3.14",
+    "@storybook/addon-a11y": "^5.3.18",
     "@storybook/addon-actions": "^5.3.14",
     "@storybook/addon-centered": "^5.3.14",
     "@storybook/addon-console": "^1.2.1",
