@@ -93,7 +93,7 @@
     "postcss": "^7.0.27",
     "react-test-renderer": "^16.13.1",
     "rollup": "^2.7.3",
-    "rollup-plugin-filesize": "^8.0.0",
+    "rollup-plugin-filesize": "^9.0.0",
     "rollup-plugin-local-resolve": "^1.0.7",
     "rollup-plugin-peer-deps-external": "^2.2.2",
     "rollup-plugin-postcss": "^3.1.1",
