@@ -88,7 +88,7 @@
     "husky": "^4.2.5",
     "jest": "^25.5.0",
     "jest-transform-css": "^2.0.0",
-    "marked": "^1.0.0",
+    "marked": "^1.1.0",
     "node-sass": "^4.14.0",
     "postcss": "^7.0.27",
     "react-test-renderer": "^16.13.1",
