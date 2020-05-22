@@ -92,7 +92,7 @@
     "node-sass": "^4.14.0",
     "postcss": "^7.0.27",
     "react-test-renderer": "^16.13.1",
-    "rollup": "^2.7.3",
+    "rollup": "^2.10.6",
     "rollup-plugin-filesize": "^9.0.0",
     "rollup-plugin-local-resolve": "^1.0.7",
     "rollup-plugin-peer-deps-external": "^2.2.2",
