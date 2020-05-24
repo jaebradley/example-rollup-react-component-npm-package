@@ -65,7 +65,7 @@
     "@storybook/addon-info": "^5.3.19",
     "@storybook/addon-options": "^5.3.19",
     "@storybook/channels": "^5.3.19",
-    "@storybook/react": "^5.3.18",
+    "@storybook/react": "^5.3.19",
     "@storybook/storybook-deployer": "^2.8.5",
     "acorn": "^7.1.1",
     "autoprefixer": "^9.7.6",
