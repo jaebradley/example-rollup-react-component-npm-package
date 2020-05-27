@@ -48,7 +48,7 @@
   "homepage": "https://github.com/jaebradley/example-rollup-react-component-npm-package#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.0",
-    "@babel/core": "^7.9.0",
+    "@babel/core": "^7.10.0",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
     "@commitlint/cli": "^8.3.5",
