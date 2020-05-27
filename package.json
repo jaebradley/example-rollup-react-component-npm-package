@@ -83,7 +83,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
     "fibers": "^5.0.0",
     "husky": "^4.2.5",
     "jest": "^25.5.0",
