@@ -100,7 +100,7 @@
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "semantic-release": "^17.0.7",
-    "source-map-loader": "^0.2.4",
+    "source-map-loader": "^1.0.0",
     "style-loader": "^1.2.1",
     "travis-deploy-once": "^5.0.11",
     "webpack": "^4.43.0",
