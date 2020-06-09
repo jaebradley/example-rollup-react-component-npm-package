@@ -47,7 +47,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'master' }}
+    if: ${{ github.ref == 'refs/heads/master' }}
     needs: build
     steps:
       - uses: actions/checkout@v2
@@ -55,8 +55,6 @@ jobs:
           ref: ${{ github.ref }}
       - name: Setup Node
         uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node }}
       - name: Install dependencies
         run: npm ci
       - name: Run Build
