@@ -43,6 +43,7 @@ jobs:
       - name: Run Build
         run: npm run build
       - name: Check That Build Is ES5 Compatible
+        run: npm run is-build-es5
   coverage:
     name: Code Coverage
     runs-on: ubuntu-latest
