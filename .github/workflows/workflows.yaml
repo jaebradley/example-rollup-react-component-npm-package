@@ -99,5 +99,5 @@ jobs:
         run: npm run build
       - name: Deploy Storybook
         run: npm run deploy-storybook-ci
-        end:
+        env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
