@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './AnExample.scss';
+import './AnExample.css';
 
 const AnExample = ({ name }) => (
   <div className="an-example">
