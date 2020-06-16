@@ -4,7 +4,6 @@ import commonjs from '@rollup/plugin-commonjs';
 import postcss from 'rollup-plugin-postcss';
 import filesize from 'rollup-plugin-filesize';
 import autoprefixer from 'autoprefixer';
-import localResolve from 'rollup-plugin-local-resolve';
 
 import pkg from './package.json';
 
@@ -14,6 +13,7 @@ const OUTPUT_NAME = 'Example';
 const GLOBALS = {
   react: 'React',
   'react-dom': 'ReactDOM',
+  'prop-types': 'PropTypes',
 };
 
 const PLUGINS = [
@@ -24,11 +24,16 @@ const PLUGINS = [
     ],
   }),
   babel({
+    babelHelpers: 'runtime',
     exclude: 'node_modules/**',
   }),
-  localResolve(),
   resolve({
     browser: true,
+    resolveOnly: [
+      /^(?!react$)/,
+      /^(?!react-dom$)/,
+      /^(?!prop-types)/,
+    ],
   }),
   commonjs(),
   filesize(),
@@ -37,6 +42,7 @@ const PLUGINS = [
 const EXTERNAL = [
   'react',
   'react-dom',
+  'prop-types',
 ];
 
 const OUTPUT_DATA = [
