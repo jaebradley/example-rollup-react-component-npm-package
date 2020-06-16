@@ -116,5 +116,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.10.2"
+  },
+  "storybook-deployer": {
+    "gitUsername": "jaebradley",
+    "gitEmail": "jae.b.bradley@gmail.com"
   }
 }
