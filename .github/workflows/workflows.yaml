@@ -85,7 +85,6 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/master' }}
     needs: release
     steps:
       - uses: actions/checkout@v2
@@ -100,4 +99,4 @@ jobs:
       - name: Deploy Storybook
         run: npm run deploy-storybook-ci
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.actor }}:${{ secrets.GH_TOKEN }}
