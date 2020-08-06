@@ -45,6 +45,9 @@ const EXTERNAL = [
   'prop-types',
 ];
 
+// https://github.com/rollup/plugins/tree/master/packages/babel#babelhelpers
+const CJS_AND_ES_EXTERNALS = EXTERNAL.concat(/@babel\/runtime/);
+
 const OUTPUT_DATA = [
   {
     file: pkg.browser,
@@ -68,7 +71,7 @@ const config = OUTPUT_DATA.map(({ file, format }) => ({
     name: OUTPUT_NAME,
     globals: GLOBALS,
   },
-  external: EXTERNAL,
+  external: ['cjs', 'es'].includes(format) ? CJS_AND_ES_EXTERNALS : EXTERNAL,
   plugins: PLUGINS,
 }));
 
