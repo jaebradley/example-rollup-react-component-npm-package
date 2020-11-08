@@ -1,17 +1,14 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { withA11y } from '@storybook/addon-a11y';
 
 import AnExample from './index.jsx';
 
 export default {
   title: 'AnExample',
-  decorators: [withA11y],
-  parameters: {
-    notes: 'The AnExample component',
-  },
+  component: AnExample,
 };
 
-export const basicExample = () => (
-  <AnExample />
-);
+const Template = (args) => <AnExample {...args} />;
+
+export const BasicExample = Template.bind({});
+export const ExampleWithCustomName = Template.bind({});
+ExampleWithCustomName.args = { name: 'SomeOtherName' };
