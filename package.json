@@ -120,7 +120,7 @@
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.15.4"
+    "@babel/runtime": "^7.16.0"
   },
   "storybook-deployer": {
     "gitUsername": "jaebradley",
